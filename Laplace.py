@@ -4,7 +4,7 @@ from sympy import *
 init_printing()
 
 # Define the symbols
-t, s = symbols('t s')
+t, s = symbols('t, s')
 a = symbols('a', real=True, positive=True)
 
 # Define the function

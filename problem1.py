@@ -5,7 +5,7 @@ def L(f):
     return laplace_transform(f, t, s, noconds=True)
 
 # Define the symbols
-t, s = symbols('t s')
+t, s = symbols('t, s')
 a = symbols('a', real=True, positive=True)
 omega = Symbol('omega', real=True)
 

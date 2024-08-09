@@ -1,5 +1,5 @@
 from sympy import *
-from sympy.plotting import plot
+# from sympy.plotting import plot
 
 # Define the symbols
 t = symbols('t')
