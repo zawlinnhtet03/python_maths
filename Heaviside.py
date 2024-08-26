@@ -1,7 +1,7 @@
 from numpy import *
 
 #creating the input array
-x1 = array([-1.5, 0, 2.0])
+x1 = [-1.5, 0, 2.0]
 x2 = 0.5
 
 #implementing the heaviside() function

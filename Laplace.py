@@ -14,3 +14,5 @@ print("The function f(t) is:", f)
 # Calculate the Laplace transform
 L = integrate(f * exp(-s * t), (t, 0, oo))
 print("The Laplace transform L(s) is:", L)
+
+print("Result ", laplace_transform(f, t, s, noconds=True))
